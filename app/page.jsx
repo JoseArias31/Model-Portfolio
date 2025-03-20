@@ -12,19 +12,19 @@ export default function ModelPortfolio() {
     "/IMG_3163-Mejorado-NR.jpg",
     "/IMG_3135-Mejorado-NR.jpg",
     // "/IMG_3128-Mejorado-NR.jpg",
-    "/IMG_3120-Mejorado-NR.jpg",
+    "IMG_3120-Mejorado-NR (2).jpg",
     "/IMG_3115-Mejorado-NR.jpg",
     "/IMG_3072-Mejorado-NR.jpg",
     "/IMG_3067-Mejorado-NR.jpg",
     "/IMG_3008-Mejorado-NR.jpg",
-    "/IMG_2971-Mejorado-NR.jpg",
-    "/IMG_2959-Mejorado-NR.jpg",
+    "/IMG_2971-Mejorado-NR.jpg",   
     "/IMG_2943-Mejorado-NR.jpg",
     "/IMG_2920-Mejorado-NR.jpg",
     "/IMG_2915-Mejorado-NR.jpg",
     "/IMG_2904-Mejorado-NR.jpg",
     "/IMG_2902-Mejorado-NR.jpg",
     "/IMG_2897-Mejorado-NR.jpg",
+    "/IMG_2959-Mejorado-NR.jpg",
     "/IMG_2843-Mejorado-NR.jpg",
     "/IMG_2832-Mejorado-NR.jpg",
     "/IMG_2830-Mejorado-NR.jpg",
@@ -113,7 +113,7 @@ export default function ModelPortfolio() {
   <div className="grid grid-cols-2 gap-4">
     <div>
       <p className="text-sm text-muted-foreground">Height</p>
-      <p className="font-medium">5'2" / 158 cm</p>
+      <p className="font-medium">158 cm / 5'2" </p>
     </div>
     <div>
       <p className="text-sm text-muted-foreground">Hair</p>
@@ -291,7 +291,8 @@ export default function ModelPortfolio() {
                 </Link>
               </div>
               
-<p className="text-muted-foreground">For bookings and inquiries, please contact: +1(647) 819-3754 </p>
+<p className="text-muted-foreground">For bookings and inquiries, please contact:</p>
+<p className="text-muted-foreground">+1(647) 819-3754 </p>
 
 
 
