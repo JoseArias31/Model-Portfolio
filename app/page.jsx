@@ -275,7 +275,7 @@ export default function ModelPortfolio() {
                 </Link>
              
                 <Link
-                  href="mailto:laucamirodriguez89@gmail.com<"
+                  href="mailto:laucamirodriguez89@gmail.com"
                   className="p-3 rounded-full bg-background hover:bg-primary/10 transition-colors target='_blank'"
                 >
                   <MdEmail className="h-6 w-6" />
