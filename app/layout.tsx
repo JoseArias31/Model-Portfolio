@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   title: 'Laura Rodriguez Model Portfolio',
   description: 'Laura Rodriguez Model Portfolio',
   generator: 'Next.js',
+  icons: {
+    icon: '/favicon-32x32.png',
+    
+  }
 }
 
 export default function RootLayout({
