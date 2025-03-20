@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Instagram, Mail, Twitter } from "lucide-react"
+import { FaInstagram, FaFacebook } from "react-icons/fa"
+import { MdEmail } from "react-icons/md"
 import { Button } from "@/components/ui/button"
 
 export default function ModelPortfolio() {
@@ -108,24 +109,38 @@ export default function ModelPortfolio() {
                 Modeling, for me, is more than just posing; it's about telling a story, capturing a vibe, and embracing confidence. I’m eager to learn, grow, and connect with photographers, brands, and creatives who share my vision. This is just the beginning, and I can’t wait to see where this adventure takes me!
                 </p>
                 <div className="pt-4">
-                  <h3 className="text-xl font-medium mb-3">Stats</h3>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div>
-                      <p className="text-sm text-muted-foreground">Height</p>
-                      <p className="font-medium">5'10" / 178cm</p>
-                    </div>
-                    <div>
-                      <p className="text-sm text-muted-foreground">Hair</p>
-                      <p className="font-medium">Brown</p>
-                    </div>
-                    <div>
-                      <p className="text-sm text-muted-foreground">Eyes</p>
-                      <p className="font-medium">Blue</p>
-                    </div>
-                    <div>
-                      <p className="text-sm text-muted-foreground">Size</p>
-                      <p className="font-medium">US 4 / EU 34</p>
-                    </div>
+  <h3 className="text-xl font-medium mb-3">Stats</h3>
+  <div className="grid grid-cols-2 gap-4">
+    <div>
+      <p className="text-sm text-muted-foreground">Height</p>
+      <p className="font-medium">5'2" / 158 cm</p>
+    </div>
+    <div>
+      <p className="text-sm text-muted-foreground">Hair</p>
+      <p className="font-medium">Brown</p>
+    </div>
+    <div>
+      <p className="text-sm text-muted-foreground">Eyes</p>
+      <p className="font-medium">Black</p>
+    </div>
+    <div>
+      <p className="text-sm text-muted-foreground">Size</p>
+      <p className="font-medium">US 4 (EU 34)</p>
+    </div>
+    <div>
+      <p className="text-sm text-muted-foreground">Bust</p>
+      <p className="font-medium">84 cm / 33"</p>
+    </div>
+    <div>
+      <p className="text-sm text-muted-foreground">Waist</p>
+      <p className="font-medium">61 cm / 24"</p>
+    </div>
+    <div>
+      <p className="text-sm text-muted-foreground">Hips</p>
+      <p className="font-medium">87 cm / 34.25" </p>
+    </div>
+  
+
                   </div>
                 </div>
               </div>
@@ -251,30 +266,40 @@ export default function ModelPortfolio() {
               </p>
               <div className="flex justify-center gap-4 mb-8">
                 <Link
-                  href="https://instagram.com"
-                  className="p-3 rounded-full bg-background hover:bg-primary/10 transition-colors"
+                  href="https://www.instagram.com/lau.rh_89?igsh=MW9oZmRrYzdpOGRn&utm_source=qr"
+                  className="p-3 rounded-full bg-background hover:bg-primary/10 transition-colors target='_blank'"
+
                 >
-                  <Instagram className="h-6 w-6" />
+                  <FaInstagram className="h-6 w-6" />
                   <span className="sr-only">Instagram</span>
                 </Link>
+             
                 <Link
-                  href="https://twitter.com"
-                  className="p-3 rounded-full bg-background hover:bg-primary/10 transition-colors"
+                  href="mailto:laucamirodriguez89@gmail.com<"
+                  className="p-3 rounded-full bg-background hover:bg-primary/10 transition-colors target='_blank'"
                 >
-                  <Twitter className="h-6 w-6" />
-                  <span className="sr-only">Twitter</span>
+                  <MdEmail className="h-6 w-6" />
+                  <span className="sr-only">Email</span>
+                  
                 </Link>
                 <Link
-                  href="mailto:contact@janedoe.com"
-                  className="p-3 rounded-full bg-background hover:bg-primary/10 transition-colors"
+                  href="https://www.facebook.com/share/1EUcaLfSDz/?mibextid=wwXIfr"
+                  className="p-3 rounded-full bg-background hover:bg-primary/10 transition-colors target='_blank'"
                 >
-                  <Mail className="h-6 w-6" />
-                  <span className="sr-only">Email</span>
+                  <FaFacebook className="h-6 w-6" />
+                  <span className="sr-only">Facebook</span>
                 </Link>
               </div>
-              <Button size="lg" className="w-full md:w-auto">
-                Contact My Agency
+              
+<p className="text-muted-foreground">For bookings and inquiries, please contact: +1(647) 819-3754 </p>
+
+
+
+              {/* <Button size="lg" className="w-full md:w-auto">
+              
+              Contact My Agency
               </Button>
+               */}
             </div>
           </div>
         </section>
